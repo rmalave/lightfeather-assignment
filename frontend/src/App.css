@@ -1,0 +1,75 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #c7d2d6;
+  border-radius: 2px;
+}
+
+.fields {
+  padding: 20px;
+}
+
+.absolute {
+  position: absolute;
+}
+
+#supervisor {
+  text-align: center;
+}
+
+h1 {
+  background: #6b7f84;
+  text-align: center;
+}
+
+label, #notification-section {
+  color: #6e8187;
+}
+
+#submit {
+  text-align: center;
+}
+
+#submit button {
+  background: #6e8187;
+  color: #fff;
+  border: 0;
+  border-radius: 2px;;
+  width: 100px;
+  padding: 10px;
+}
+
+input {
+  border: 0;
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  width: unset;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+  height: 24px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  flex-grow: 1;
+}
+
+.form-group:first-child {
+  margin-right: 20px;
+}
+
+select {
+  width: 200px;
+  border: 0;
+  border-radius: 2px;
+  padding: 5px;
+}
